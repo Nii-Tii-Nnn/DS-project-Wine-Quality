@@ -1,0 +1,86 @@
+{
+  "best_model_name": "RandomForest Regressor",
+  "features_used": [
+    "alcohol_density_ratio",
+    "alcohol",
+    "sulphates",
+    "volatile acidity",
+    "total sulfur dioxide",
+    "sulfur_ratio",
+    "citric acid",
+    "chlorides",
+    "density"
+  ],
+  "results": [
+    {
+      "Model": "RandomForest Regressor",
+      "Train_R2": 0.5209588665397555,
+      "Test_R2": 0.4151072249393917,
+      "Accuracy_Percent": 41.51072249393917,
+      "Overfitting_Gap": 0.10585164160036387,
+      "RMSE": 0.6243975485534005,
+      "MAE": 0.47726173317867393,
+      "Result_Source": "Section 13 (reused)",
+      "Rank_By_Accuracy": 1
+    },
+    {
+      "Model": "GradientBoosting Regressor",
+      "Train_R2": 0.46967302833630387,
+      "Test_R2": 0.4130190837512753,
+      "Accuracy_Percent": 41.301908375127525,
+      "Overfitting_Gap": 0.05665394458502859,
+      "RMSE": 0.6255111446323678,
+      "MAE": 0.47784960944753446,
+      "Result_Source": "Section 13 (reused)",
+      "Rank_By_Accuracy": 2
+    },
+    {
+      "Model": "HistGradientBoosting Regressor",
+      "Train_R2": 0.47542247463885023,
+      "Test_R2": 0.40981177425846416,
+      "Accuracy_Percent": 40.98117742584642,
+      "Overfitting_Gap": 0.06561070038038608,
+      "RMSE": 0.6272177374016619,
+      "MAE": 0.4821338561887439,
+      "Result_Source": "Section 13 (reused)",
+      "Rank_By_Accuracy": 3
+    },
+    {
+      "Model": "Polynomial Regression (deg=2)",
+      "Train_R2": 0.4059775097394541,
+      "Test_R2": 0.38447458343568386,
+      "Accuracy_Percent": 38.447458343568385,
+      "Overfitting_Gap": 0.021502926303770264,
+      "RMSE": 0.6405397062853309,
+      "MAE": 0.4957618408924576,
+      "Result_Source": "Section 13 (reused)",
+      "Rank_By_Accuracy": 4
+    },
+    {
+      "Model": "Ridge Regression",
+      "Train_R2": 0.3674100585230665,
+      "Test_R2": 0.37239757044345934,
+      "Accuracy_Percent": 37.239757044345936,
+      "Overfitting_Gap": -0.0049875119203928175,
+      "RMSE": 0.6467930863252394,
+      "MAE": 0.48858855953410796,
+      "Result_Source": "Section 13 (reused)",
+      "Rank_By_Accuracy": 5
+    },
+    {
+      "Model": "Linear Regression",
+      "Train_R2": 0.36772275475189165,
+      "Test_R2": 0.37238585606309627,
+      "Accuracy_Percent": 37.23858560630963,
+      "Overfitting_Gap": -0.0046631013112046205,
+      "RMSE": 0.6467991225868256,
+      "MAE": 0.4887812765582037,
+      "Result_Source": "Section 13 (reused)",
+      "Rank_By_Accuracy": 6
+    }
+  ],
+  "dataset_shape": [
+    1018,
+    10
+  ]
+}
