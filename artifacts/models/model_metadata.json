@@ -15,11 +15,11 @@
     {
       "Model": "RandomForest Regressor",
       "Train_R2": 0.5209588665397555,
-      "Test_R2": 0.4151072249393917,
-      "Accuracy_Percent": 41.51072249393917,
-      "Overfitting_Gap": 0.10585164160036387,
+      "Test_R2": 0.4151072249393918,
+      "Accuracy_Percent": 41.51072249393918,
+      "Overfitting_Gap": 0.10585164160036376,
       "RMSE": 0.6243975485534005,
-      "MAE": 0.47726173317867393,
+      "MAE": 0.4772617331786739,
       "Result_Source": "Section 13 (reused)",
       "Rank_By_Accuracy": 1
     },
@@ -82,5 +82,12 @@
   "dataset_shape": [
     1018,
     10
-  ]
+  ],
+  "saved_files": {
+    "best_model_named": "best_model_gradient_boosting.pkl",
+    "best_model_legacy": "best_model.joblib",
+    "all_models": "all_models.joblib",
+    "metrics": "model_metrics.json",
+    "scaler": "feature_scaler.joblib"
+  }
 }

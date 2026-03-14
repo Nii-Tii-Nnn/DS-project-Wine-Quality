@@ -1,0 +1,23 @@
+{
+  "model_name": "GradientBoostingRegressor",
+  "saved_model_file": "best_model_gradient_boosting.pkl",
+  "train_r2": 0.46967302833630387,
+  "test_r2": 0.4130190837512753,
+  "rmse": 0.6255111446323678,
+  "mae": 0.4821338561887439,
+  "features_used": [
+    "alcohol_density_ratio",
+    "alcohol",
+    "sulphates",
+    "volatile acidity",
+    "total sulfur dioxide",
+    "sulfur_ratio",
+    "citric acid",
+    "chlorides",
+    "density"
+  ],
+  "dataset_shape": [
+    1018,
+    10
+  ]
+}
