@@ -1,23 +1,34 @@
 {
-  "model_name": "GradientBoostingRegressor",
-  "saved_model_file": "best_model_gradient_boosting.pkl",
-  "train_r2": 0.46967302833630387,
-  "test_r2": 0.4130190837512753,
-  "rmse": 0.6255111446323678,
-  "mae": 0.4821338561887439,
+  "model_name": "Linear Regression",
+  "model_type": "LinearRegression",
+  "saved_model_file": "best_model_linear_regression.joblib",
+  "train_r2": 0.8025337022781865,
+  "test_r2": 0.830300544463282,
+  "accuracy_percent": 83.03005444632821,
+  "overfitting_gap": -0.02776684218509551,
+  "rmse": 0.33632820187419077,
+  "mae": 0.23302274731176062,
+  "cv_r2_mean": NaN,
+  "cv_r2_std": NaN,
+  "cv_rmse_mean": NaN,
+  "cv_rmse_std": NaN,
   "features_used": [
-    "alcohol_density_ratio",
-    "alcohol",
-    "sulphates",
+    "fixed acidity",
     "volatile acidity",
-    "total sulfur dioxide",
-    "sulfur_ratio",
     "citric acid",
+    "residual sugar",
     "chlorides",
-    "density"
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "sulfur_ratio",
+    "sweetness_level_Medium",
+    "sweetness_level_High",
+    "quality_category_Medium",
+    "quality_category_High"
   ],
-  "dataset_shape": [
-    1018,
-    10
-  ]
+  "dataset_shape": null
 }
